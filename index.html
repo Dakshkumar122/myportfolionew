@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Daksh Kumar — Portfolio (Replica)</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- Animated gradient blobs -->
+  <div class="bg-canvas" id="bg">
+    <div class="blob" id="b1" style="left:10%;top:20%;background:linear-gradient(135deg,#57f2e7,#7b61ff)"></div>
+    <div class="blob" id="b2" style="left:85%;top:10%;background:linear-gradient(135deg,#ff8a71,#ff61c3)"></div>
+    <div class="blob" id="b3" style="left:70%;top:80%;background:linear-gradient(135deg,#6df3b9,#57f2e7)"></div>
+  </div>
+
+
+
+
+  <div class="container">
+    <!-- Responsive Navbar -->
+    <header class="navbar" style="position:fixed;top:0;left:0;width:100%;z-index:1000;">
+      <div class="navbar-left">
+        <img src="images/navbarpng.png" alt="Daksh Kumar" class="profile-pic">
+        <div class="profile-info">
+          <h1>Daksh Kumar</h1>
+          <p>Frontend Developer</p>
+        </div>
+      </div>
+    
+      <!-- Hamburger Toggle Button -->
+      <div class="hamburger" id="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+    
+      <nav class="navbar-right" id="nav-menu">
+        <a href="#home"><i class="fas fa-home"></i><span>Home</span></a>
+        <a href="#about"><i class="fas fa-user"></i><span>About</span></a>
+        <a href="#skills"><i class="fas fa-code"></i><span>Skills</span></a>
+        <a href="#projects"><i class="fas fa-briefcase"></i><span>Projects</span></a>
+        <a href="#contact"><i class="fas fa-envelope"></i><span>Contact</span></a>
+      </nav>
+    </header>
+    
+    <!--  main section  -->
+    <main class="hero" id="home">
+      <div class="hero-content">
+        <span class="welcome">⭐ Welcome to my universe</span>
+        <h1>
+          <span class="highlight">Frontend Developer</span> <br />
+          & Creative <span class="highlight">Coder</span>
+        </h1>
+        <p>
+          I craft <span class="accent">beautiful</span>,
+          <span class="accent">interactive</span> web experiences with modern technologies.<br />
+          Passionate about clean code, stunning designs, and seamless user experiences.
+        </p>
+
+        <div class="cta-buttons">
+          <a href="#projects" class="btn primary">🚀 Explore My Universe</a>
+          <a href="resume.pdf" class="btn secondary">📄 Download CV</a>
+        </div>
+
+        <div class="social-icons">
+          <a href="https://github.com/Dakshkumar122"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/daksh-kumar-18078a345/"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+         <a href="mailto:daksh258586@gmail.com"><i class="fas fa-envelope"></i></a>
+
+        </div>
+      </div>
+    </main>
+    <!-- end here main section -->
+
+
+
+    <!-- about section -->
+    <section id="about" class="about-section">
+      <h2 class="section-title">About Me</h2>
+      <p class="subtitle">Get to know the person behind the <span class="accent">code</span></p>
+
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            I'm a passionate frontend developer with a love for creating beautiful,
+            functional web experiences. My journey in web development started with
+            curiosity and has evolved into a dedication to crafting digital solutions
+            that make a difference.
+          </p>
+          <p>
+            When I'm not coding, you'll find me exploring new technologies,
+            contributing to open-source projects, or learning about the latest trends
+            in web development. I believe in continuous learning and pushing the
+            boundaries of what's possible on the web.
+          </p>
+          <p>
+            My goal is to bridge the gap between design and development, creating
+            seamless user experiences that are both visually stunning and highly
+            functional.
+          </p>
+
+          <div class="stats">
+            <div class="stat"><span>1+</span>
+              <p>Years Experience</p>
+            </div>
+            <div class="stat"><span>7+</span>
+              <p>Projects Completed</p>
+            </div>
+            <div class="stat"><span>1</span>
+              <p>School Student</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-photo">
+          <img src="images/img1.jpg" alt="daksh kumar">
+        </div>
+      </div>
+    </section>
+
+    <!-- skills and technology section -->
+
+    <!-- Skills & Technologies Section -->
+    <section id="skills" class="skills-section">
+      <h2 class="section-title">Skills & Technologies</h2>
+      <p class="subtitle">The magical tools I use to bring <span class="accent">ideas to life</span></p>
+
+      <!-- Skill Cards -->
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <img src="images/react (1).png" alt="React" />
+          <span>React</span>
+          <div class="progress blue"></div>
+        </div>
+        <div class="skill-card">
+          <img src="images/postman.png" alt="TypeScript" />
+          <span>Postman</span>
+          <div class="progress purple"></div>
+        </div>
+        <div class="skill-card">
+          <img src="images/tailwind.png" alt="Tailwind CSS" />
+          <span>Tailwind CSS</span>
+          <div class="progress cyan"></div>
+        </div>
+        <div class="skill-card">
+          <img src="images/js.png" alt="JavaScript" />
+          <span>JavaScript</span>
+          <div class="progress yellow"></div>
+        </div>
+        <div class="skill-card">
+          <img src="images/html.png" alt="HTML" />
+          <span>HTML</span>
+          <div class="progress orange"></div>
+        </div>
+        <div class="skill-card">
+          <img src="images/css.png" alt="CSS" />
+          <span>CSS</span>
+          <div class="progress blue"></div>
+        </div>
+        <div class="skill-card">
+          <img src="images/git (1).png" alt="Git" />
+          <span>Git</span>
+          <div class="progress orange"></div>
+        </div>
+        <div class="skill-card">
+          <img src="images/djnago.png" alt="Node.js" />
+          <span>Django</span>
+          <div class="progress green"></div>
+        </div>
+        <div class="skill-card">
+          <img src="images/python.png" alt="Docker" />
+          <span>Python</span>
+          <div class="progress blue"></div>
+        </div>
+
+
+      </div>
+
+      <!-- Stats Row -->
+      <div class="skill-stats">
+        <div class="stat-card">
+          <i class="fas fa-tools"></i>
+          <h3>8+</h3>
+          <p>Technologies</p>
+        </div>
+        <div class="stat-card">
+          <i class="fas fa-rocket"></i>
+          <h3>7+</h3>
+          <p>Projects</p>
+        </div>
+        <div class="stat-card">
+          <i class="fas fa-bolt"></i>
+          <h3>1+</h3>
+          <p>Experience</p>
+        </div>
+        <div class="stat-card">
+          <i class="fas fa-mug-hot"></i>
+          <h3>∞</h3>
+          <p>Coffee Cups</p>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+    <!-- featured project section -->
+    <section class="projects" id="projects">
+      <h2 class="section-title">Featured Projects</h2>
+      <p class="subtitle">A showcase of my <span class="accent">creative work</span> and technical expertise</p>
+
+      <div class="projects-grid">
+        <!-- Project Card -->
+        <div class="project-card">
+          <img src="images/feesmanagemnetsystem.png" alt="Astro Pong" class="project-img">
+          <div class="project-content">
+            <h3>Fees Managemnet system</h3>
+            <p>Build a Djnago based student fees managemnet system with feature for fee collection, installment
+              tracking, and automated identification of defaulter, ensuring accuracy and efficency in financial
+              record-keeping</p>
+            <div class="tags">
+              <span>python</span><span>Django</span><span>JavaScript</span>
+            </div>
+            <a href="https://github.com/Dakshkumar122/Fees-Managemnet-Systemm.git" class="view-code">View Code</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="images/todo.jpg" alt="Todo App" class="project-img">
+          <div class="project-content">
+            <h3>Todo App</h3>
+            <p>A modern, responsive Todo app built with Html, Css, and Javascript.dark mode, and
+              forms.</p>
+            <div class="tags">
+              <span>Html</span><span>Css</span><span>JavaScript</span>
+            </div>
+            <a href="https://github.com/Dakshkumar122/Todo-App.git" class="view-code">View Code</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="images/tabbusalon.jpg" alt="Inception" class="project-img">
+          <div class="project-content">
+            <h3>Tabbu Salon Academy</h3>
+            <p>Workd as a helper to build a website for salon at chakshuinfo tech</p>
+            <div class="tags">
+              <span>Docker</span><span>WordPress</span><span>NGINX</span><span>MariaDB</span>
+            </div>
+            <a href="#" class="view-code">View Code</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="images/project4.jpg" alt="IRC Server" class="project-img">
+          <div class="project-content">
+            <h3>IRC Server</h3>
+            <p>An Internet Relay Chat server and client implemented in C++, supporting multiple users and channels.</p>
+            <div class="tags">
+              <span>C++</span><span>Socket Programming</span><span>Multi-threading</span>
+            </div>
+            <a href="#" class="view-code">View Code</a>
+          </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- contact section  -->
+    <section id="contact" class="contact-section">
+      <h2 class="contact-title">Get in Touch</h2>
+      <p class="contact-subtitle">
+        Ready to bring your <span class="highlight">ideas to life</span>? Let’s create something amazing together.
+      </p>
+
+      <div class="contact-container">
+        <!-- Contact Info -->
+        <div class="contact-info">
+          <h3>Get in Touch</h3>
+          <p><i class="fas fa-envelope"></i> <strong>Email</strong><br>
+            <a href="">daksh258586@gmail.com</a>
+          </p>
+          <p><i class="fab fa-linkedin"></i> <strong>LinkedIn</strong><br>
+            <a href="https://www.linkedin.com/in/daksh-kumar-18078a345/">Dakshkumar</a>
+          </p>
+          <p><i class="fab fa-github"></i> <strong>GitHub</strong><br>
+            <a href="https://github.com/Dakshkumar122">Dakshkumar</a>
+          </p>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form">
+          <h3>Contact Me</h3>
+          <form>
+            <div class="form-row">
+              <input type="text" name="name" placeholder="Your name" required>
+              <input type="email" name="email" placeholder="Your email" required>
+            </div>
+            <textarea name="message" placeholder="Your message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer class="site-footer">
+        <div class="footer-content">
+          <div class="footer-info">
+            <span class="footer-name">Daksh Kumar</span>
+            <span class="footer-role">Frontend Developer</span>
+          </div>
+          <div class="footer-icons">
+            <a href="https://github.com/Dakshkumar122"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/daksh-kumar-18078a345/"><i class="fab fa-linkedin"></i></a>
+            <a href="daksh258586@gmail.com"><i class="fas fa-envelope"></i></a>
+          </div>
+          <p class="footer-copy">© 2025 Dakshkumar — Crafted with ❤️ and code</p>
+        </div>
+      </footer>
+    </section>
+
+
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+</body>
+
+</html>
