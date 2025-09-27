@@ -147,22 +147,22 @@ window.addEventListener("DOMContentLoaded", () => {
 
 // contact form emailling process
 
-  // Step 1: Init with Public Key
-  (function(){
-    emailjs.init("-IipR7uMISuMU8vXM"); // yaha apna public key dalna
-  })();
 
-  // Step 2: Form submit handle
-  document.getElementsByClassName("contact-form").addEventListener("submit", function(e) {
-    e.preventDefault();
+// Initialize EmailJS
+emailjs.init("jR20TzzbQzjTLybTR"); // Replace with your EmailS user ID
+// Form submission handler
+document.getElementById('contact-form'). addEventListener ('submit', function (event) {
+event .preventDefault(); // Prevent the default form submission
+// Send email using EmailJS
+emailjs.sendForm("service_mkqv9eg", "template_lutgqgv", this)
+-then (function(response) {
+alert ('Message sent successfully!');
+}, function (error) {
+alert( 'Failed to send message. Please try again.');
+console. log (error);
+}) ;
+});
 
-    emailjs.sendForm("service_y2bxdny", "email", this)
-      .then(() => {
-        alert("✅ Message sent successfully!");
-      }, (err) => {
-        alert("❌ Error: " + JSON.stringify(err));
-      });
-  });
 
 
 
